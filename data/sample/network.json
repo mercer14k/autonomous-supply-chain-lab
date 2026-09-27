@@ -1,0 +1,4617 @@
+{
+  "id": "synthetic-v1-seed-42-n-200",
+  "source_id": "synthetic-v1-seed-42-n-200",
+  "ingested_at": "2026-01-01T00:00:00Z",
+  "validation_status": "valid",
+  "lineage": {
+    "generator": "1.0",
+    "timestamp_basis": "fixed synthetic epoch"
+  },
+  "seed": 42,
+  "skus": [
+    {
+      "id": "SKU-0001",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "warning",
+      "lineage": {
+        "edge_case": "zero-demand discontinued item"
+      },
+      "name": "Sensors 1000",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 775,
+      "daily_demand": 0.0,
+      "truth_daily_demand": 0.0,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0002",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "warning",
+      "lineage": {
+        "edge_case": "missing initial forecast; agents must abstain until observed"
+      },
+      "name": "Fasteners 1001",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2375,
+      "daily_demand": null,
+      "truth_daily_demand": 2.52,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0003",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1002",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 850,
+      "daily_demand": 2.11,
+      "truth_daily_demand": 2.11,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0004",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1003",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1025,
+      "daily_demand": 1.88,
+      "truth_daily_demand": 1.88,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0005",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1004",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 150,
+      "daily_demand": 2.74,
+      "truth_daily_demand": 2.74,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0006",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1005",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 650,
+      "daily_demand": 2.62,
+      "truth_daily_demand": 2.62,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0007",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1006",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1225,
+      "daily_demand": 2.48,
+      "truth_daily_demand": 2.48,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0008",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1007",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 825,
+      "daily_demand": 1.47,
+      "truth_daily_demand": 1.47,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0009",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1008",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1225,
+      "daily_demand": 3.1,
+      "truth_daily_demand": 3.1,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0010",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1009",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1350,
+      "daily_demand": 1.05,
+      "truth_daily_demand": 1.05,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0011",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1010",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2850,
+      "daily_demand": 1.03,
+      "truth_daily_demand": 1.03,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0012",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1011",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 975,
+      "daily_demand": 1.63,
+      "truth_daily_demand": 1.63,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0013",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1012",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2475,
+      "daily_demand": 2.74,
+      "truth_daily_demand": 2.74,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0014",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1013",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 525,
+      "daily_demand": 1.9,
+      "truth_daily_demand": 1.9,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0015",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1014",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1350,
+      "daily_demand": 3.14,
+      "truth_daily_demand": 3.14,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0016",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1015",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1075,
+      "daily_demand": 0.99,
+      "truth_daily_demand": 0.99,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0017",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1016",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2125,
+      "daily_demand": 2.79,
+      "truth_daily_demand": 2.79,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0018",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1017",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1300,
+      "daily_demand": 2.93,
+      "truth_daily_demand": 2.93,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0019",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1018",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2400,
+      "daily_demand": 2.19,
+      "truth_daily_demand": 2.19,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0020",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1019",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2250,
+      "daily_demand": 0.97,
+      "truth_daily_demand": 0.97,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0021",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1020",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1075,
+      "daily_demand": 1.35,
+      "truth_daily_demand": 1.35,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0022",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1021",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2875,
+      "daily_demand": 3.16,
+      "truth_daily_demand": 3.16,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0023",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1022",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 450,
+      "daily_demand": 1.36,
+      "truth_daily_demand": 1.36,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0024",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1023",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1600,
+      "daily_demand": 1.71,
+      "truth_daily_demand": 1.71,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0025",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1024",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1300,
+      "daily_demand": 2.33,
+      "truth_daily_demand": 2.33,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0026",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1025",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1275,
+      "daily_demand": 1.19,
+      "truth_daily_demand": 1.19,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0027",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1026",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1000,
+      "daily_demand": 1.3,
+      "truth_daily_demand": 1.3,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0028",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1027",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2325,
+      "daily_demand": 2.48,
+      "truth_daily_demand": 2.48,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0029",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1028",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2075,
+      "daily_demand": 2.36,
+      "truth_daily_demand": 2.36,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0030",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1029",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1850,
+      "daily_demand": 2.32,
+      "truth_daily_demand": 2.32,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0031",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1030",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 650,
+      "daily_demand": 2.55,
+      "truth_daily_demand": 2.55,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0032",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1031",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1000,
+      "daily_demand": 1.91,
+      "truth_daily_demand": 1.91,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0033",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1032",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2175,
+      "daily_demand": 3.17,
+      "truth_daily_demand": 3.17,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0034",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1033",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 850,
+      "daily_demand": 2.45,
+      "truth_daily_demand": 2.45,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0035",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1034",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2825,
+      "daily_demand": 2.44,
+      "truth_daily_demand": 2.44,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0036",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1035",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 325,
+      "daily_demand": 2.64,
+      "truth_daily_demand": 2.64,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0037",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1036",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 250,
+      "daily_demand": 1.35,
+      "truth_daily_demand": 1.35,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0038",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1037",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1425,
+      "daily_demand": 2.73,
+      "truth_daily_demand": 2.73,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0039",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1038",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 825,
+      "daily_demand": 1.44,
+      "truth_daily_demand": 1.44,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0040",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1039",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1950,
+      "daily_demand": 2.99,
+      "truth_daily_demand": 2.99,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0041",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1040",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1150,
+      "daily_demand": 2.9,
+      "truth_daily_demand": 2.9,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0042",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1041",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1725,
+      "daily_demand": 1.31,
+      "truth_daily_demand": 1.31,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0043",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1042",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2200,
+      "daily_demand": 1.75,
+      "truth_daily_demand": 1.75,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0044",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1043",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 975,
+      "daily_demand": 1.9,
+      "truth_daily_demand": 1.9,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0045",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1044",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2525,
+      "daily_demand": 1.14,
+      "truth_daily_demand": 1.14,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0046",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1045",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 975,
+      "daily_demand": 2.15,
+      "truth_daily_demand": 2.15,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0047",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1046",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1500,
+      "daily_demand": 2.59,
+      "truth_daily_demand": 2.59,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0048",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1047",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1425,
+      "daily_demand": 2.95,
+      "truth_daily_demand": 2.95,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0049",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1048",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 575,
+      "daily_demand": 1.67,
+      "truth_daily_demand": 1.67,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0050",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1049",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 425,
+      "daily_demand": 2.02,
+      "truth_daily_demand": 2.02,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0051",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1050",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2900,
+      "daily_demand": 2.61,
+      "truth_daily_demand": 2.61,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0052",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1051",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2150,
+      "daily_demand": 1.06,
+      "truth_daily_demand": 1.06,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0053",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1052",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2325,
+      "daily_demand": 1.18,
+      "truth_daily_demand": 1.18,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0054",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1053",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 350,
+      "daily_demand": 1.81,
+      "truth_daily_demand": 1.81,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0055",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1054",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2050,
+      "daily_demand": 1.72,
+      "truth_daily_demand": 1.72,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0056",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1055",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1825,
+      "daily_demand": 3.19,
+      "truth_daily_demand": 3.19,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0057",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1056",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1900,
+      "daily_demand": 1.4,
+      "truth_daily_demand": 1.4,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0058",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1057",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 175,
+      "daily_demand": 2.87,
+      "truth_daily_demand": 2.87,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0059",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1058",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 500,
+      "daily_demand": 2.43,
+      "truth_daily_demand": 2.43,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0060",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1059",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1850,
+      "daily_demand": 2.44,
+      "truth_daily_demand": 2.44,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0061",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1060",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2600,
+      "daily_demand": 2.6,
+      "truth_daily_demand": 2.6,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0062",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1061",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 500,
+      "daily_demand": 2.34,
+      "truth_daily_demand": 2.34,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0063",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1062",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 650,
+      "daily_demand": 1.5,
+      "truth_daily_demand": 1.5,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0064",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1063",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2450,
+      "daily_demand": 1.89,
+      "truth_daily_demand": 1.89,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0065",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1064",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 975,
+      "daily_demand": 2.9,
+      "truth_daily_demand": 2.9,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0066",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1065",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2575,
+      "daily_demand": 3.13,
+      "truth_daily_demand": 3.13,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0067",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1066",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 475,
+      "daily_demand": 1.23,
+      "truth_daily_demand": 1.23,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0068",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1067",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1100,
+      "daily_demand": 2.89,
+      "truth_daily_demand": 2.89,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0069",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1068",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1750,
+      "daily_demand": 2.82,
+      "truth_daily_demand": 2.82,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0070",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1069",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 625,
+      "daily_demand": 2.26,
+      "truth_daily_demand": 2.26,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0071",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1070",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 650,
+      "daily_demand": 1.7,
+      "truth_daily_demand": 1.7,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0072",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1071",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2625,
+      "daily_demand": 2.09,
+      "truth_daily_demand": 2.09,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0073",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1072",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 150,
+      "daily_demand": 3.01,
+      "truth_daily_demand": 3.01,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0074",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1073",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1700,
+      "daily_demand": 2.24,
+      "truth_daily_demand": 2.24,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0075",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1074",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1300,
+      "daily_demand": 0.85,
+      "truth_daily_demand": 0.85,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0076",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1075",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2800,
+      "daily_demand": 2.91,
+      "truth_daily_demand": 2.91,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0077",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1076",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 900,
+      "daily_demand": 2.74,
+      "truth_daily_demand": 2.74,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0078",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1077",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2950,
+      "daily_demand": 0.94,
+      "truth_daily_demand": 0.94,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0079",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1078",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 400,
+      "daily_demand": 2.16,
+      "truth_daily_demand": 2.16,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0080",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1079",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1700,
+      "daily_demand": 1.01,
+      "truth_daily_demand": 1.01,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0081",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1080",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2575,
+      "daily_demand": 2.76,
+      "truth_daily_demand": 2.76,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0082",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1081",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 550,
+      "daily_demand": 2.08,
+      "truth_daily_demand": 2.08,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0083",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1082",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1650,
+      "daily_demand": 1.11,
+      "truth_daily_demand": 1.11,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0084",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1083",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 675,
+      "daily_demand": 3.07,
+      "truth_daily_demand": 3.07,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0085",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1084",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2925,
+      "daily_demand": 1.44,
+      "truth_daily_demand": 1.44,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0086",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1085",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 825,
+      "daily_demand": 2.26,
+      "truth_daily_demand": 2.26,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0087",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1086",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2550,
+      "daily_demand": 3.03,
+      "truth_daily_demand": 3.03,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0088",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1087",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 775,
+      "daily_demand": 2.55,
+      "truth_daily_demand": 2.55,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0089",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1088",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1425,
+      "daily_demand": 2.51,
+      "truth_daily_demand": 2.51,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0090",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1089",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2225,
+      "daily_demand": 3.19,
+      "truth_daily_demand": 3.19,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0091",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1090",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1800,
+      "daily_demand": 1.7,
+      "truth_daily_demand": 1.7,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0092",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1091",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 925,
+      "daily_demand": 1.88,
+      "truth_daily_demand": 1.88,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0093",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1092",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1225,
+      "daily_demand": 1.34,
+      "truth_daily_demand": 1.34,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0094",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1093",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1900,
+      "daily_demand": 0.85,
+      "truth_daily_demand": 0.85,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0095",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1094",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 850,
+      "daily_demand": 1.35,
+      "truth_daily_demand": 1.35,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0096",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1095",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2400,
+      "daily_demand": 0.82,
+      "truth_daily_demand": 0.82,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0097",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1096",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 875,
+      "daily_demand": 2.31,
+      "truth_daily_demand": 2.31,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0098",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1097",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 250,
+      "daily_demand": 0.96,
+      "truth_daily_demand": 0.96,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0099",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1098",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 375,
+      "daily_demand": 2.86,
+      "truth_daily_demand": 2.86,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0100",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1099",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1025,
+      "daily_demand": 2.03,
+      "truth_daily_demand": 2.03,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0101",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1100",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 825,
+      "daily_demand": 2.41,
+      "truth_daily_demand": 2.41,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0102",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1101",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2450,
+      "daily_demand": 2.09,
+      "truth_daily_demand": 2.09,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0103",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1102",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1975,
+      "daily_demand": 3.05,
+      "truth_daily_demand": 3.05,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0104",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1103",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 925,
+      "daily_demand": 2.18,
+      "truth_daily_demand": 2.18,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0105",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1104",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2725,
+      "daily_demand": 2.68,
+      "truth_daily_demand": 2.68,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0106",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1105",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 450,
+      "daily_demand": 1.78,
+      "truth_daily_demand": 1.78,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0107",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1106",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1525,
+      "daily_demand": 1.03,
+      "truth_daily_demand": 1.03,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0108",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1107",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1450,
+      "daily_demand": 1.65,
+      "truth_daily_demand": 1.65,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0109",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1108",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2475,
+      "daily_demand": 1.92,
+      "truth_daily_demand": 1.92,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0110",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1109",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2225,
+      "daily_demand": 0.93,
+      "truth_daily_demand": 0.93,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0111",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1110",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 450,
+      "daily_demand": 3.16,
+      "truth_daily_demand": 3.16,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0112",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1111",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2475,
+      "daily_demand": 0.95,
+      "truth_daily_demand": 0.95,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0113",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1112",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2900,
+      "daily_demand": 1.61,
+      "truth_daily_demand": 1.61,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0114",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1113",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 750,
+      "daily_demand": 1.06,
+      "truth_daily_demand": 1.06,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0115",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1114",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1575,
+      "daily_demand": 1.26,
+      "truth_daily_demand": 1.26,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0116",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1115",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 725,
+      "daily_demand": 1.14,
+      "truth_daily_demand": 1.14,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0117",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1116",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 925,
+      "daily_demand": 1.47,
+      "truth_daily_demand": 1.47,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0118",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1117",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 375,
+      "daily_demand": 2.9,
+      "truth_daily_demand": 2.9,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0119",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1118",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2900,
+      "daily_demand": 1.86,
+      "truth_daily_demand": 1.86,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0120",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1119",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 450,
+      "daily_demand": 2.85,
+      "truth_daily_demand": 2.85,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0121",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1120",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1875,
+      "daily_demand": 0.92,
+      "truth_daily_demand": 0.92,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0122",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1121",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 425,
+      "daily_demand": 2.81,
+      "truth_daily_demand": 2.81,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0123",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1122",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2850,
+      "daily_demand": 3.02,
+      "truth_daily_demand": 3.02,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0124",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1123",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1450,
+      "daily_demand": 1.37,
+      "truth_daily_demand": 1.37,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0125",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1124",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 825,
+      "daily_demand": 1.97,
+      "truth_daily_demand": 1.97,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0126",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1125",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 325,
+      "daily_demand": 2.88,
+      "truth_daily_demand": 2.88,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0127",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1126",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 150,
+      "daily_demand": 1.2,
+      "truth_daily_demand": 1.2,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0128",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1127",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 975,
+      "daily_demand": 3.16,
+      "truth_daily_demand": 3.16,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0129",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1128",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2650,
+      "daily_demand": 3.02,
+      "truth_daily_demand": 3.02,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0130",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1129",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1500,
+      "daily_demand": 1.89,
+      "truth_daily_demand": 1.89,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0131",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1130",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2475,
+      "daily_demand": 2.47,
+      "truth_daily_demand": 2.47,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0132",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1131",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1925,
+      "daily_demand": 3.19,
+      "truth_daily_demand": 3.19,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0133",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1132",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1700,
+      "daily_demand": 2.39,
+      "truth_daily_demand": 2.39,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0134",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1133",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1075,
+      "daily_demand": 1.17,
+      "truth_daily_demand": 1.17,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0135",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1134",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 325,
+      "daily_demand": 1.32,
+      "truth_daily_demand": 1.32,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0136",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1135",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1875,
+      "daily_demand": 2.19,
+      "truth_daily_demand": 2.19,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0137",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1136",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1150,
+      "daily_demand": 0.95,
+      "truth_daily_demand": 0.95,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0138",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1137",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2000,
+      "daily_demand": 0.94,
+      "truth_daily_demand": 0.94,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0139",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1138",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2875,
+      "daily_demand": 1.94,
+      "truth_daily_demand": 1.94,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0140",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1139",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 325,
+      "daily_demand": 2.07,
+      "truth_daily_demand": 2.07,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0141",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1140",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 400,
+      "daily_demand": 3.11,
+      "truth_daily_demand": 3.11,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0142",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1141",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 350,
+      "daily_demand": 2.84,
+      "truth_daily_demand": 2.84,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0143",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1142",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2300,
+      "daily_demand": 2.23,
+      "truth_daily_demand": 2.23,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0144",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1143",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1425,
+      "daily_demand": 2.87,
+      "truth_daily_demand": 2.87,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0145",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1144",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2975,
+      "daily_demand": 1.09,
+      "truth_daily_demand": 1.09,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0146",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1145",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2000,
+      "daily_demand": 2.17,
+      "truth_daily_demand": 2.17,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0147",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1146",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2125,
+      "daily_demand": 2.23,
+      "truth_daily_demand": 2.23,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0148",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1147",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2250,
+      "daily_demand": 1.0,
+      "truth_daily_demand": 1.0,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0149",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1148",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1800,
+      "daily_demand": 2.2,
+      "truth_daily_demand": 2.2,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0150",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1149",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 975,
+      "daily_demand": 1.56,
+      "truth_daily_demand": 1.56,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0151",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1150",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2425,
+      "daily_demand": 1.29,
+      "truth_daily_demand": 1.29,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0152",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1151",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 975,
+      "daily_demand": 1.55,
+      "truth_daily_demand": 1.55,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0153",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1152",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2275,
+      "daily_demand": 1.75,
+      "truth_daily_demand": 1.75,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0154",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1153",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1600,
+      "daily_demand": 2.35,
+      "truth_daily_demand": 2.35,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0155",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1154",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2550,
+      "daily_demand": 1.56,
+      "truth_daily_demand": 1.56,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0156",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1155",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 175,
+      "daily_demand": 3.05,
+      "truth_daily_demand": 3.05,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0157",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1156",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1950,
+      "daily_demand": 1.9,
+      "truth_daily_demand": 1.9,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0158",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1157",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 375,
+      "daily_demand": 3.19,
+      "truth_daily_demand": 3.19,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0159",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1158",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1750,
+      "daily_demand": 2.09,
+      "truth_daily_demand": 2.09,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0160",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1159",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1250,
+      "daily_demand": 1.44,
+      "truth_daily_demand": 1.44,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0161",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1160",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2950,
+      "daily_demand": 2.91,
+      "truth_daily_demand": 2.91,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0162",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1161",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1050,
+      "daily_demand": 1.39,
+      "truth_daily_demand": 1.39,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0163",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1162",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2800,
+      "daily_demand": 1.18,
+      "truth_daily_demand": 1.18,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0164",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1163",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1100,
+      "daily_demand": 2.1,
+      "truth_daily_demand": 2.1,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0165",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1164",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2725,
+      "daily_demand": 2.27,
+      "truth_daily_demand": 2.27,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0166",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1165",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 175,
+      "daily_demand": 2.37,
+      "truth_daily_demand": 2.37,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0167",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1166",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1900,
+      "daily_demand": 2.4,
+      "truth_daily_demand": 2.4,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0168",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1167",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2250,
+      "daily_demand": 1.52,
+      "truth_daily_demand": 1.52,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0169",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1168",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2950,
+      "daily_demand": 1.05,
+      "truth_daily_demand": 1.05,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0170",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1169",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 500,
+      "daily_demand": 1.12,
+      "truth_daily_demand": 1.12,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0171",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1170",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2525,
+      "daily_demand": 2.94,
+      "truth_daily_demand": 2.94,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0172",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1171",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1000,
+      "daily_demand": 2.13,
+      "truth_daily_demand": 2.13,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0173",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1172",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 800,
+      "daily_demand": 1.48,
+      "truth_daily_demand": 1.48,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0174",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1173",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 800,
+      "daily_demand": 2.52,
+      "truth_daily_demand": 2.52,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0175",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1174",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2875,
+      "daily_demand": 2.45,
+      "truth_daily_demand": 2.45,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0176",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1175",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1700,
+      "daily_demand": 1.43,
+      "truth_daily_demand": 1.43,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0177",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1176",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2850,
+      "daily_demand": 1.4,
+      "truth_daily_demand": 1.4,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0178",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1177",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2175,
+      "daily_demand": 0.92,
+      "truth_daily_demand": 0.92,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0179",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1178",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1025,
+      "daily_demand": 1.82,
+      "truth_daily_demand": 1.82,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0180",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1179",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1200,
+      "daily_demand": 0.91,
+      "truth_daily_demand": 0.91,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0181",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1180",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2175,
+      "daily_demand": 2.65,
+      "truth_daily_demand": 2.65,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0182",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1181",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 650,
+      "daily_demand": 3.15,
+      "truth_daily_demand": 3.15,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0183",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1182",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1900,
+      "daily_demand": 2.58,
+      "truth_daily_demand": 2.58,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0184",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1183",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1925,
+      "daily_demand": 2.49,
+      "truth_daily_demand": 2.49,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0185",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1184",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 375,
+      "daily_demand": 0.82,
+      "truth_daily_demand": 0.82,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0186",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1185",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2350,
+      "daily_demand": 3.07,
+      "truth_daily_demand": 3.07,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0187",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1186",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 1875,
+      "daily_demand": 2.97,
+      "truth_daily_demand": 2.97,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0188",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1187",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 1325,
+      "daily_demand": 0.89,
+      "truth_daily_demand": 0.89,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0189",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1188",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 600,
+      "daily_demand": 2.2,
+      "truth_daily_demand": 2.2,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0190",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1189",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 275,
+      "daily_demand": 1.83,
+      "truth_daily_demand": 1.83,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0191",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1190",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2675,
+      "daily_demand": 1.54,
+      "truth_daily_demand": 1.54,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0192",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1191",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 275,
+      "daily_demand": 3.13,
+      "truth_daily_demand": 3.13,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0193",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1192",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-01",
+        "SUP-04"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 800,
+      "daily_demand": 2.96,
+      "truth_daily_demand": 2.96,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0194",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1193",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-02",
+        "SUP-05"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2275,
+      "daily_demand": 2.44,
+      "truth_daily_demand": 2.44,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0195",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1194",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-03",
+        "SUP-06"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2625,
+      "daily_demand": 1.05,
+      "truth_daily_demand": 1.05,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0196",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sensors 1195",
+      "category": "Sensors",
+      "supplier_ids": [
+        "SUP-04",
+        "SUP-07"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2925,
+      "daily_demand": 2.14,
+      "truth_daily_demand": 2.14,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0197",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Fasteners 1196",
+      "category": "Fasteners",
+      "supplier_ids": [
+        "SUP-05",
+        "SUP-08"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2125,
+      "daily_demand": 1.78,
+      "truth_daily_demand": 1.78,
+      "moq": 10
+    },
+    {
+      "id": "SKU-0198",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Controllers 1197",
+      "category": "Controllers",
+      "supplier_ids": [
+        "SUP-06",
+        "SUP-01"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 900,
+      "daily_demand": 2.6,
+      "truth_daily_demand": 2.6,
+      "moq": 20
+    },
+    {
+      "id": "SKU-0199",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Power modules 1198",
+      "category": "Power modules",
+      "supplier_ids": [
+        "SUP-07",
+        "SUP-02"
+      ],
+      "plant_id": "PLT-01",
+      "unit_cost_cents": 2700,
+      "daily_demand": 2.88,
+      "truth_daily_demand": 2.88,
+      "moq": 5
+    },
+    {
+      "id": "SKU-0200",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Connectors 1199",
+      "category": "Connectors",
+      "supplier_ids": [
+        "SUP-08",
+        "SUP-03"
+      ],
+      "plant_id": "PLT-02",
+      "unit_cost_cents": 2950,
+      "daily_demand": 2.75,
+      "truth_daily_demand": 2.75,
+      "moq": 10
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "SUP-01",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Atlas Components",
+      "lead_days": 3,
+      "daily_capacity": 3600,
+      "reliability": 0.86
+    },
+    {
+      "id": "SUP-02",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Nord Materials",
+      "lead_days": 4,
+      "daily_capacity": 3600,
+      "reliability": 0.875
+    },
+    {
+      "id": "SUP-03",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Pacific Supply",
+      "lead_days": 5,
+      "daily_capacity": 3600,
+      "reliability": 0.89
+    },
+    {
+      "id": "SUP-04",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Keystone Works",
+      "lead_days": 6,
+      "daily_capacity": 3600,
+      "reliability": 0.905
+    },
+    {
+      "id": "SUP-05",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Summit Industrial",
+      "lead_days": 7,
+      "daily_capacity": 3600,
+      "reliability": 0.92
+    },
+    {
+      "id": "SUP-06",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Meridian Parts",
+      "lead_days": 3,
+      "daily_capacity": 3600,
+      "reliability": 0.935
+    },
+    {
+      "id": "SUP-07",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Delta Manufacturing",
+      "lead_days": 4,
+      "daily_capacity": 3600,
+      "reliability": 0.95
+    },
+    {
+      "id": "SUP-08",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Cedar Supply",
+      "lead_days": 5,
+      "daily_capacity": 3600,
+      "reliability": 0.965
+    }
+  ],
+  "plants": [
+    {
+      "id": "PLT-01",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Great Lakes Assembly",
+      "daily_capacity": 13000,
+      "processing_days": 1
+    },
+    {
+      "id": "PLT-02",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Sunbelt Assembly",
+      "daily_capacity": 13000,
+      "processing_days": 2
+    }
+  ],
+  "warehouses": [
+    {
+      "id": "WH-01",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Chicago",
+      "capacity": 100000,
+      "transport_days": 1,
+      "lane_capacity": 10000
+    },
+    {
+      "id": "WH-02",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Dallas",
+      "capacity": 100000,
+      "transport_days": 2,
+      "lane_capacity": 10000
+    },
+    {
+      "id": "WH-03",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Newark",
+      "capacity": 100000,
+      "transport_days": 3,
+      "lane_capacity": 10000
+    }
+  ],
+  "markets": [
+    {
+      "id": "MKT-01",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Minneapolis",
+      "warehouse_id": "WH-01",
+      "demand_weight": 1.084
+    },
+    {
+      "id": "MKT-02",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Detroit",
+      "warehouse_id": "WH-01",
+      "demand_weight": 0.715
+    },
+    {
+      "id": "MKT-03",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Cleveland",
+      "warehouse_id": "WH-01",
+      "demand_weight": 0.865
+    },
+    {
+      "id": "MKT-04",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "St. Louis",
+      "warehouse_id": "WH-01",
+      "demand_weight": 0.834
+    },
+    {
+      "id": "MKT-05",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Austin",
+      "warehouse_id": "WH-02",
+      "demand_weight": 1.142
+    },
+    {
+      "id": "MKT-06",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Houston",
+      "warehouse_id": "WH-02",
+      "demand_weight": 1.106
+    },
+    {
+      "id": "MKT-07",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Denver",
+      "warehouse_id": "WH-02",
+      "demand_weight": 1.235
+    },
+    {
+      "id": "MKT-08",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Phoenix",
+      "warehouse_id": "WH-02",
+      "demand_weight": 0.752
+    },
+    {
+      "id": "MKT-09",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Boston",
+      "warehouse_id": "WH-03",
+      "demand_weight": 0.953
+    },
+    {
+      "id": "MKT-10",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "New York",
+      "warehouse_id": "WH-03",
+      "demand_weight": 0.718
+    },
+    {
+      "id": "MKT-11",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Philadelphia",
+      "warehouse_id": "WH-03",
+      "demand_weight": 0.831
+    },
+    {
+      "id": "MKT-12",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "name": "Atlanta",
+      "warehouse_id": "WH-03",
+      "demand_weight": 1.003
+    }
+  ],
+  "disruptions": [
+    {
+      "id": "EVT-001",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "kind": "supplier_outage",
+      "target_id": "SUP-01",
+      "start_day": 7,
+      "duration": 5,
+      "magnitude": 1.0
+    },
+    {
+      "id": "EVT-002",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "kind": "demand_surge",
+      "target_id": "MKT-10",
+      "start_day": 12,
+      "duration": 7,
+      "magnitude": 2.5
+    },
+    {
+      "id": "EVT-003",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "kind": "transport_delay",
+      "target_id": "WH-02",
+      "start_day": 18,
+      "duration": 4,
+      "magnitude": 3.0
+    },
+    {
+      "id": "EVT-004",
+      "source_id": "synthetic-v1-seed-42-n-200",
+      "ingested_at": "2026-01-01T00:00:00Z",
+      "validation_status": "valid",
+      "lineage": {
+        "generator": "1.0",
+        "timestamp_basis": "fixed synthetic epoch"
+      },
+      "kind": "plant_outage",
+      "target_id": "PLT-02",
+      "start_day": 22,
+      "duration": 3,
+      "magnitude": 1.0
+    }
+  ]
+}

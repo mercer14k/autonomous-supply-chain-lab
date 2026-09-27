@@ -1,0 +1,54 @@
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: lab
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-local-lab-only}
+      POSTGRES_DB: supply_lab
+    volumes:
+      - lab-db:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U lab -d supply_lab"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    environment:
+      DATABASE_URL: postgresql+psycopg://lab:${POSTGRES_PASSWORD:-local-lab-only}@db:5432/supply_lab
+      WRITE_TOKEN: ${WRITE_TOKEN:-local-demo-token}
+      READ_TOKEN: ${READ_TOKEN:-}
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+      LLAMACPP_BASE_URL: ${LLAMACPP_BASE_URL:-http://host.docker.internal:8081}
+      VLLM_BASE_URL: ${VLLM_BASE_URL:-http://host.docker.internal:8001}
+    ports: ["127.0.0.1:8000:8000"]
+    extra_hosts: ["host.docker.internal:host-gateway"]
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/ready')"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    security_opt: ["no-new-privileges:true"]
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+    ports: ["127.0.0.1:5173:80"]
+    depends_on:
+      api:
+        condition: service_healthy
+  ollama:
+    image: ollama/ollama:0.34.4
+    profiles: [local-model]
+    environment:
+      OLLAMA_NO_CLOUD: "true"
+    volumes: ["ollama-models:/root/.ollama"]
+    ports: ["127.0.0.1:11434:11434"]
+volumes:
+  lab-db:
+  ollama-models:

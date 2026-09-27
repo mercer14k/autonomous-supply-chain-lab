@@ -1,0 +1,558 @@
+{
+  "$defs": {
+    "Disruption": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "maxLength": 100,
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$",
+          "title": "Id",
+          "type": "string"
+        },
+        "source_id": {
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Source Id",
+          "type": "string"
+        },
+        "ingested_at": {
+          "title": "Ingested At",
+          "type": "string"
+        },
+        "validation_status": {
+          "default": "valid",
+          "enum": [
+            "valid",
+            "warning"
+          ],
+          "title": "Validation Status",
+          "type": "string"
+        },
+        "lineage": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Lineage",
+          "type": "object"
+        },
+        "kind": {
+          "enum": [
+            "supplier_outage",
+            "plant_outage",
+            "transport_delay",
+            "demand_surge"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "target_id": {
+          "title": "Target Id",
+          "type": "string"
+        },
+        "start_day": {
+          "minimum": 0,
+          "title": "Start Day",
+          "type": "integer"
+        },
+        "duration": {
+          "minimum": 1,
+          "title": "Duration",
+          "type": "integer"
+        },
+        "magnitude": {
+          "maximum": 10,
+          "minimum": 1,
+          "title": "Magnitude",
+          "type": "number"
+        }
+      },
+      "required": [
+        "id",
+        "source_id",
+        "ingested_at",
+        "kind",
+        "target_id",
+        "start_day",
+        "duration",
+        "magnitude"
+      ],
+      "title": "Disruption",
+      "type": "object"
+    },
+    "Market": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "maxLength": 100,
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$",
+          "title": "Id",
+          "type": "string"
+        },
+        "source_id": {
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Source Id",
+          "type": "string"
+        },
+        "ingested_at": {
+          "title": "Ingested At",
+          "type": "string"
+        },
+        "validation_status": {
+          "default": "valid",
+          "enum": [
+            "valid",
+            "warning"
+          ],
+          "title": "Validation Status",
+          "type": "string"
+        },
+        "lineage": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Lineage",
+          "type": "object"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "warehouse_id": {
+          "title": "Warehouse Id",
+          "type": "string"
+        },
+        "demand_weight": {
+          "exclusiveMinimum": 0,
+          "maximum": 10,
+          "title": "Demand Weight",
+          "type": "number"
+        }
+      },
+      "required": [
+        "id",
+        "source_id",
+        "ingested_at",
+        "name",
+        "warehouse_id",
+        "demand_weight"
+      ],
+      "title": "Market",
+      "type": "object"
+    },
+    "Plant": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "maxLength": 100,
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$",
+          "title": "Id",
+          "type": "string"
+        },
+        "source_id": {
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Source Id",
+          "type": "string"
+        },
+        "ingested_at": {
+          "title": "Ingested At",
+          "type": "string"
+        },
+        "validation_status": {
+          "default": "valid",
+          "enum": [
+            "valid",
+            "warning"
+          ],
+          "title": "Validation Status",
+          "type": "string"
+        },
+        "lineage": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Lineage",
+          "type": "object"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "daily_capacity": {
+          "minimum": 1,
+          "title": "Daily Capacity",
+          "type": "integer"
+        },
+        "processing_days": {
+          "maximum": 10,
+          "minimum": 1,
+          "title": "Processing Days",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "source_id",
+        "ingested_at",
+        "name",
+        "daily_capacity",
+        "processing_days"
+      ],
+      "title": "Plant",
+      "type": "object"
+    },
+    "SKU": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "maxLength": 100,
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$",
+          "title": "Id",
+          "type": "string"
+        },
+        "source_id": {
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Source Id",
+          "type": "string"
+        },
+        "ingested_at": {
+          "title": "Ingested At",
+          "type": "string"
+        },
+        "validation_status": {
+          "default": "valid",
+          "enum": [
+            "valid",
+            "warning"
+          ],
+          "title": "Validation Status",
+          "type": "string"
+        },
+        "lineage": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Lineage",
+          "type": "object"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "category": {
+          "title": "Category",
+          "type": "string"
+        },
+        "supplier_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Supplier Ids",
+          "type": "array"
+        },
+        "plant_id": {
+          "title": "Plant Id",
+          "type": "string"
+        },
+        "unit_cost_cents": {
+          "minimum": 1,
+          "title": "Unit Cost Cents",
+          "type": "integer"
+        },
+        "daily_demand": {
+          "anyOf": [
+            {
+              "maximum": 1000,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Daily Demand"
+        },
+        "truth_daily_demand": {
+          "maximum": 1000,
+          "minimum": 0,
+          "title": "Truth Daily Demand",
+          "type": "number"
+        },
+        "moq": {
+          "maximum": 10000,
+          "minimum": 1,
+          "title": "Moq",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "source_id",
+        "ingested_at",
+        "name",
+        "category",
+        "supplier_ids",
+        "plant_id",
+        "unit_cost_cents",
+        "truth_daily_demand",
+        "moq"
+      ],
+      "title": "SKU",
+      "type": "object"
+    },
+    "Supplier": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "maxLength": 100,
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$",
+          "title": "Id",
+          "type": "string"
+        },
+        "source_id": {
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Source Id",
+          "type": "string"
+        },
+        "ingested_at": {
+          "title": "Ingested At",
+          "type": "string"
+        },
+        "validation_status": {
+          "default": "valid",
+          "enum": [
+            "valid",
+            "warning"
+          ],
+          "title": "Validation Status",
+          "type": "string"
+        },
+        "lineage": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Lineage",
+          "type": "object"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "lead_days": {
+          "maximum": 30,
+          "minimum": 1,
+          "title": "Lead Days",
+          "type": "integer"
+        },
+        "daily_capacity": {
+          "minimum": 1,
+          "title": "Daily Capacity",
+          "type": "integer"
+        },
+        "reliability": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Reliability",
+          "type": "number"
+        }
+      },
+      "required": [
+        "id",
+        "source_id",
+        "ingested_at",
+        "name",
+        "lead_days",
+        "daily_capacity",
+        "reliability"
+      ],
+      "title": "Supplier",
+      "type": "object"
+    },
+    "Warehouse": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "maxLength": 100,
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$",
+          "title": "Id",
+          "type": "string"
+        },
+        "source_id": {
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Source Id",
+          "type": "string"
+        },
+        "ingested_at": {
+          "title": "Ingested At",
+          "type": "string"
+        },
+        "validation_status": {
+          "default": "valid",
+          "enum": [
+            "valid",
+            "warning"
+          ],
+          "title": "Validation Status",
+          "type": "string"
+        },
+        "lineage": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Lineage",
+          "type": "object"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "capacity": {
+          "minimum": 1,
+          "title": "Capacity",
+          "type": "integer"
+        },
+        "transport_days": {
+          "maximum": 15,
+          "minimum": 1,
+          "title": "Transport Days",
+          "type": "integer"
+        },
+        "lane_capacity": {
+          "minimum": 1,
+          "title": "Lane Capacity",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "source_id",
+        "ingested_at",
+        "name",
+        "capacity",
+        "transport_days",
+        "lane_capacity"
+      ],
+      "title": "Warehouse",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "maxLength": 100,
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$",
+      "title": "Id",
+      "type": "string"
+    },
+    "source_id": {
+      "maxLength": 100,
+      "minLength": 1,
+      "title": "Source Id",
+      "type": "string"
+    },
+    "ingested_at": {
+      "title": "Ingested At",
+      "type": "string"
+    },
+    "validation_status": {
+      "default": "valid",
+      "enum": [
+        "valid",
+        "warning"
+      ],
+      "title": "Validation Status",
+      "type": "string"
+    },
+    "lineage": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Lineage",
+      "type": "object"
+    },
+    "seed": {
+      "title": "Seed",
+      "type": "integer"
+    },
+    "skus": {
+      "items": {
+        "$ref": "#/$defs/SKU"
+      },
+      "maxItems": 5000,
+      "minItems": 1,
+      "title": "Skus",
+      "type": "array"
+    },
+    "suppliers": {
+      "items": {
+        "$ref": "#/$defs/Supplier"
+      },
+      "maxItems": 100,
+      "minItems": 1,
+      "title": "Suppliers",
+      "type": "array"
+    },
+    "plants": {
+      "items": {
+        "$ref": "#/$defs/Plant"
+      },
+      "maxItems": 50,
+      "minItems": 1,
+      "title": "Plants",
+      "type": "array"
+    },
+    "warehouses": {
+      "items": {
+        "$ref": "#/$defs/Warehouse"
+      },
+      "maxItems": 20,
+      "minItems": 1,
+      "title": "Warehouses",
+      "type": "array"
+    },
+    "markets": {
+      "items": {
+        "$ref": "#/$defs/Market"
+      },
+      "maxItems": 200,
+      "minItems": 1,
+      "title": "Markets",
+      "type": "array"
+    },
+    "disruptions": {
+      "items": {
+        "$ref": "#/$defs/Disruption"
+      },
+      "maxItems": 200,
+      "title": "Disruptions",
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "source_id",
+    "ingested_at",
+    "seed",
+    "skus",
+    "suppliers",
+    "plants",
+    "warehouses",
+    "markets",
+    "disruptions"
+  ],
+  "title": "Dataset",
+  "type": "object"
+}
