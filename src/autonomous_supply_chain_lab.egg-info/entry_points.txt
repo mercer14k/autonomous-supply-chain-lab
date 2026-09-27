@@ -1,0 +1,2 @@
+[console_scripts]
+supply-lab = supply_lab.cli:main

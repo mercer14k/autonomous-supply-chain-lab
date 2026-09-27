@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: autonomous-supply-chain-lab
+Version: 0.1.0
+Summary: Reproducible supply-chain simulation and local-agent evaluation laboratory
+License-Expression: Apache-2.0
+Requires-Python: >=3.12
+Requires-Dist: fastapi<0.142,>=0.135
+Requires-Dist: uvicorn[standard]<0.55,>=0.41
+Requires-Dist: pydantic<3,>=2.12
+Requires-Dist: sqlalchemy<2.2,>=2.0.48
+Requires-Dist: psycopg[binary]<4,>=3.3
+Requires-Dist: httpx<0.29,>=0.28
+Requires-Dist: python-multipart<0.1,>=0.0.22
+Provides-Extra: dev
+Requires-Dist: pytest<10,>=9; extra == "dev"
+Requires-Dist: ruff<0.17,>=0.15; extra == "dev"
+Requires-Dist: pip-audit<3,>=2.10; extra == "dev"
